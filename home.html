@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crypto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    
+</head>
+<body >
+    <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.png" alt="">
+        <span class="d-none d-lg-block">Field Manager</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn d-lg-none d-sm-block"></i>
+    </div><!-- End Logo -->
+
+  
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item">
+            <a class="nav-link nav-icon" >
+                <i class="bi bi-brightness-high-fill cursor-pointer" id="toggleDark"></i>
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+        
+        <li class="nav-item ">
+
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                <i class=" bi bi-gear"></i>
+              
+            </a><!-- End setting Icon -->
+        </li>
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-icon nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-person-circle lg"></i>
+            <span class="d-none d-md-block ps-2 mt-2">Adminuser</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <li class="nav-heading">MONITORING</li>
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Live-Location-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Live Location</span>
+        </a>
+       
+      </li><!-- End Live Location Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Time-Line-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Time Line</span>
+        </a>
+       
+      </li><!-- End Time Line Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Card-View-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Card View</span>
+        </a>
+       
+      </li><!-- End Card View Nav -->
+      <li class="nav-heading uppercase mt-4">Employee Management</li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#Employees-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Employees</span>
+        </a>
+      </li><!-- End Employees Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Icons</span>
+        </a>
+      </li><!-- End Icons Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Shifts.html">
+          <i class="bi bi-person"></i>
+          <span>Shifts</span>
+        </a>
+      </li><!-- End Shifts Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Teams.html">
+          <i class="bi bi-question-circle"></i>
+          <span>Teams</span>
+        </a>
+      </li><!-- End Teams Page Nav -->
+
+      <li class="nav-heading uppercase mt-4">Attendance</li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Public-Holidays.html">
+          <i class="bi bi-envelope"></i>
+          <span>Public Holidays</span>
+        </a>
+      </li><!-- End Public Holidays Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Visits.html">
+          <i class="bi bi-card-list"></i>
+          <span>Visits</span>
+        </a>
+      </li><!-- End Visits Page Nav -->
+      <li class="nav-heading uppercase mt-4">Leave Management</li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Leave-Type.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Leave Type</span>
+        </a>
+      </li><!-- End Leave Type Nav -->
+      <li class="nav-heading uppercase mt-4">Expense Management</li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Expense-Requests.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Expense Requests</span>
+        </a>
+      </li><!-- End Expense Requests Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="Expense-Type.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Expense Type</span>
+        </a>
+      </li><!-- End Expense Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+   <h1>Hello Dashboard</h1>
+  </main><!-- End #main -->
+   
+    <script>
+     
+      </script>
+ 
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
